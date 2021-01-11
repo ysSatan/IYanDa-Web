@@ -1,0 +1,189 @@
+/*-------------------------默认配置--------------------------*/
+.headMessege{
+    color: #1a1919;
+    margin-left: 350px;
+    font-size: 6px;    
+}
+.menu {
+    /*修改蓝幅颜色和大小*/
+    background-color: #006699;/*颜色*/
+    height: 60px; /*大小*/
+}
+
+div {
+    display: block;
+}
+
+element.style {
+}
+
+.menu ul li a:visited {
+    color: #FFFFFF;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.menu ul li a {
+    color: #FFFFFF;/*设置字体颜色*/
+    margin-right: 20px;
+    margin-left: 10px;
+    font-size: 30px;/*设置字体大小*/
+    text-decoration: underline;/*字体下划线，作为超链接提示*/
+}
+
+a:visited {
+    /*用于选取已被访问的链接*/
+    color: #666666;
+    text-decoration: none;
+}
+
+a:link {
+    /*未访问的链接*/
+    color: #666666;
+    text-decoration: none;
+}
+.menu .textRight {
+    /*设置向右对齐方式*/
+    position: absolute;
+    right: 180px;
+    width: 690px;
+    /* 取消边界
+    border: 3px solid #73AD21;*/
+    padding: 1px;
+}
+/*重设/覆盖浏览器默认样式，避免跨浏览器使用而产生的BUG的问题*/
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.menu ul li {
+    float: left;/*设置为左对齐*/
+    list-style-type: none;
+}
+user agent stylesheet
+li {
+    text-align: -webkit-match-parent;
+}
+user agent stylesheet
+ul {
+    list-style-type: disc;
+}
+/*----------------------------------------------------------------*/
+.TextCenter{
+  /*设置字段居中*/
+  width: 700px;
+  height: 100px;
+  margin: auto;
+  position: relative;
+}
+.hot-font{
+    float: left;
+    margin-top: 30px;
+}
+.hot-font img{
+    margin-bottom:20px;
+    cursor:pointer;    /*光标放在图片上的形状（一只手）*/
+}
+.hot-font:hover img{
+/*伪类 :hover 鼠标滑过之后给img 添加动画名称,1s表示所有效果在1s以内完成*/
+    animation: run 1s;
+}
+/*创建动画*/
+@keyframes run{
+/*创建动画帧关键字 动画名称 run*/
+    0%{ transform:scale(0.8);}
+    25%{transform:scale(1.2);}
+    50%{transform:scale(1);}
+    70%{transform:scale(1.1);}
+    100%{transform:scale(1);}
+}
+
+.fnav {
+    height: auto;
+    width: 100%;
+    background-color: #242424;
+    clear: both;
+    align: center;
+    margin-top:10px;
+   }
+
+.fnav_n {
+    zoom:1;
+    overflow:hidden;
+    height: auto;
+    width: 1000px;
+    padding-top:1px;
+   margin:0 auto;
+}
+.fnav_nll {
+    float:left;
+    height: 100%;
+    width: 30%;
+    text-align:left;
+}
+   
+.fnav_nll p {
+    float: left;
+    height: 1px;
+    width: 100%;
+    color: #FFF;
+    font-size: 20px;
+    display: block;
+}
+.fnav_nll a:hover {
+    color: #D1DBBD;
+}
+   
+.fnav_nll a {
+    color: #CCC;
+    float: left;
+    height: 15px;
+    width: 100%;
+    line-height: 5px;
+}
+/*设置联系方式*/
+.fnav_nll .ftel {
+    float: left;
+    height: 30px;
+    width: 100%;
+    line-height: 40px;
+    padding-left: 25px;
+    font-size: 14px;
+    color: #CCC;
+}
+/*信息科学与工程学院*/
+.fnav_nll .wx {
+    float: left;
+    height: 30px;
+    width: 80%;
+    line-height: 30px;
+    padding-left: 25px;
+    font-size: px;
+    color: #CCC;
+}
+.f {
+    background-color: #2d2d2d;
+    height: 35px;
+    width: 100%;
+    clear: both;
+}
+.foot {
+    height: 35px;
+    width: 100%;
+    color: #FFF;
+    line-height: 35px;
+}
+.foot .fl {
+    float: right;
+    width: 45%;
+    text-align:left;
+}
+.foot .fr {
+    float: right;
+    width: 45%;
+    text-align:left
+}

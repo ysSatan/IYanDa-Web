@@ -1,0 +1,94 @@
+/*-------------------------默认配置--------------------------*/
+.headMessege{
+    color: #1a1919;
+    margin-left: 350px;
+    font-size: 6px;    
+}
+
+body {
+    background-image: linear-gradient(to bottom , #FFFFFF, #FFFFFF);
+}
+
+.menu {
+    /*修改蓝幅颜色和大小*/
+    background-color: #006699;/*颜色*/
+    height: 60px; /*大小*/
+}
+
+div {
+    display: block;
+}
+
+element.style {
+    
+}
+
+.menu ul li a:visited {
+    color: #FFFFFF;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.menu ul li a {
+    color: #FFFFFF;/*设置字体颜色*/
+    margin-right: 20px;
+    margin-left: 10px;
+    font-size: 30px;/*设置字体大小*/
+    text-decoration: underline;/*字体下划线，作为超链接提示*/
+}
+
+a:visited {
+    /*用于选取已被访问的链接*/
+    color: #666666;
+    text-decoration: none;
+}
+
+a:link {
+    /*未访问的链接*/
+    color: #666666;
+    text-decoration: none;
+}
+.menu .textRight {
+    /*设置向右对齐方式*/
+    position: absolute;
+    right: 180px;
+    width: 690px;
+    /* 取消边界
+    border: 3px solid #73AD21;*/
+    padding: 1px;
+}
+/*重设/覆盖浏览器默认样式，避免跨浏览器使用而产生的BUG的问题*/
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.menu ul li {
+    float: left;/*设置为左对齐*/
+    list-style-type: none;
+}
+user agent stylesheet
+li {
+    text-align: -webkit-match-parent;
+}
+user agent stylesheet
+ul {
+    list-style-type: disc;
+}
+/*----------------------------------------------------------------*/
+.TextCenter{
+  /*设置字段居中*/
+  width: 700px;
+  height: 100px;
+  margin: auto;
+  position: relative;
+}
+.LeftFlower{
+    width: 30;
+    height: 100;
+    margin-top: 50px;
+    padding-left: 50px;
+}
